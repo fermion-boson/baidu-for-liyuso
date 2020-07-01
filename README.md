@@ -3,3 +3,10 @@
 
 ---------
 
+## 截图
+
+![百度搜百度](https://github.com/fermion-boson/baidu-for-liyuso/blob/master/src/baidu.png)
+
+![](https://github.com/fermion-boson/baidu-for-liyuso/blob/master/src/zhou.png)
+
+![](https://github.com/fermion-boson/baidu-for-liyuso/blob/master/src/iron.png)
