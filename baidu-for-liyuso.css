@@ -1,0 +1,298 @@
+/* ==UserStyle==
+@name      新百度 for 鲤鱼搜索
+@ namespace   liyuso.cn/so
+@version           2.1.0
+@license           unlicense
+==/UserStyle== */
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+#wrapper_wrapper {
+    background: #f2f3f6 !important;
+}
+
+#container {
+    background: #f2f3f6;
+}
+
+/* 屏蔽广告和推荐 */
+#content_left > div:not(.c-container) {
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+#content_left > div.leftBlock,
+.hit_top_new {
+    height: auto;
+}
+
+#content_right td > div:not(#con-ar) {
+    display: none;
+}
+/* 输入框 */
+.bdsug-overflow:hover {
+    color: #FA7268 !important;
+}
+.bdsug-overflow:hover b {
+    color: #FA7268 !important;
+}
+.bdsug-s {
+    color: #FA7268 !important;
+}
+.new-ipt-focus {
+    border: 2px solid #FA7268 !important;
+}
+.iptfocus {
+    border: 2px solid #FA7268 !important;
+}
+.wrapper_new #form .bdsug-new {
+    border: 2px solid #FA7268 !important;
+    border-top: 0 !important;
+}
+.wrapper_new .s_ipt_wr:hover {
+    border-color: #FA7268 !important;
+}
+.wrapper_new .iptfocus.s_ipt_wr {
+    border-color: #FA7268 !important;
+}
+.wrapper_new .s_ipt_wr:focus {
+    border-color: #FA7268 !important;
+}
+/* 搜索按钮 */
+.s_btn {
+    background-color: #FA7268 !important;
+}
+.wrapper_new #s_tab .cur-tab:after {
+    background: #FA7268;
+}
+/* 头像 */
+.wrapper_new #u .s-top-img-wrapper {
+    border-color: #FA7268 !important;
+}
+/* 居中 */
+.container_l {
+    width: auto;
+}
+#content_left {
+    margin: 0 auto;
+    padding-left: 0px;
+    width: 778px;
+    float: none !important;
+}
+#content_right {
+    display: none;
+}
+.hint_common_restop {
+    width: 618px;
+    margin: 10px auto;
+}
+.nums {
+    width: 618px;
+    margin: 0px auto !important;
+}
+.search_tool_conter {
+    width: 618px;
+    margin: 0px auto !important;
+}
+.s_ipt_wr {
+    width: 516px;
+}
+.fm {
+    width: 678px;
+}
+/* tab */
+#s_tab {
+    width: 760px;
+    margin: 0 auto;
+    background: #fff;
+}
+@media screen and (min-width: 1921px) {
+    #s_tab {
+        width: 878px;
+    }
+}
+.s_form {
+    width: 889px;
+    margin: 0 auto;
+}
+#u {
+    padding-right: 0 !important;
+}
+#result_logo {
+    margin: 7px 20px 0 0;
+}
+#rs {
+    width: 598px;
+    margin: 0 auto;
+}
+/* 搜索提示 */
+.wrapper_new .iptfocus .s_ipt_wr {
+    border-color: #FA7268 !important;
+}
+/* 页码 */
+#page {
+    width: 708px;
+    margin: 30px auto !important;
+}
+#page strong .pc {
+    background: #FA7268 !important;
+    color: #fff;
+}
+.pc:hover {
+    background: #FA7268 !important;
+    color: #fff;
+}
+.n:hover {
+    background: #FA7268 !important;
+    color: #fff;
+}
+.wrapper_new .container_new ~ #page strong,
+.wrapper_new .container_new ~ #page a {
+    color: #FA7268;
+}
+.wrapper_new .container_new ~ #page {
+    background-color: #f2f3f6 !important;
+}
+.page-inner {
+    padding-left: 70px !important;
+}
+/* 结果 */
+.c-container {
+    width: 578px !important;
+    border-radius: 12px;
+    padding: 10px 30px;
+    background: #fff;
+    transition: box-shadow 0.3s;
+    margin-bottom: 30px !important;
+}
+
+.c-container:hover {
+    box-shadow: 0px 15px 20px rgba(250, 114, 104, 0.2);
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+.t {
+    margin: 5px auto 12px auto;
+}
+.t a:not(.c-text) {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 13px;
+    text-decoration: none;
+    color: #333;
+}
+.t a:visited {
+    color: #888;
+}
+a em {
+    text-decoration: none;
+}
+em {
+    color: rgb(250, 114, 104);
+    font-weight: bold;
+}
+.c-img {
+    border-radius: 10px;
+}
+.c-showurl {
+    /* background:#f6f7f8; */
+    /* border-radius: 8px; */
+    color: #888;
+    /* padding: 2px 8px; */
+}
+.f13 {
+    margin-top: 7px;
+}
+.fk {
+    opacity: 0;
+}
+#wrapper_wrapper {
+    background: #f6f7f8;
+}
+
+#rs {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: -20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 20px auto !important;
+}
+
+/* 百科模块 */
+.c-span-last p .c-gap-right-small {
+    background-color: #f6f7f8;
+    padding: 3px 10px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* 百度知道 */
+.subLink_answer li {
+    margin-bottom: 20px !important;
+    background-color: #f2f3f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.subLink_answer h4 {
+    font-weight: bold !important;
+}
+.c {
+    color: #fa7268b8 !important;
+    margin-left: 20px;
+}
+/* 音乐模块 */
+.c-tabs-nav .c-tabs-nav-selected {
+    border-color: #FA7268 #e4e4e4 #fff #dedede;
+}
+
+/* 相关信息模块 */
+.c-offset .c-row:first-child {
+    margin-bottom: 10px;
+    background-color: #f2f3f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.c-offset .c-row {
+    padding: 7px 20px;
+}
+.c-offset {
+    padding-left: 0 !important;
+}
+
+/* 贴吧 */
+.op-tieba-star-photo-link img {
+    border-radius: 10px !important;
+}
+.op-tieba-general-maintable td {
+    padding: 7px !important;
+}
+.op-tieba-general-firsttd[colspan*="3"] {
+    background-color: #f2f3f6;
+    padding: 10px 20px !important;
+    border-radius: 10px;
+}
+.c-result-content .c-container {
+    width: 567px !important;
+    margin-left: -20px;
+    margin-top: 5px;
+    margin-bottom: 0 !important;
+}
+
+.c-text-public {
+    border-radius: 10px;
+}
+
+/* footer */
+#foot {
+    text-align: center !important;
+}
